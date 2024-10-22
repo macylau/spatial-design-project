@@ -1,0 +1,85 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		BD73C3D22CC84EF900C47842 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		BD73C3D32CC84F1800C47842 /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		BD73C3CA2CC84E8800C47842 = {
+			isa = PBXGroup;
+			children = (
+				BD73C3D22CC84EF900C47842 /* index.html */,
+				BD73C3D32CC84F1800C47842 /* styles.css */,
+				BD73C3D12CC84EE300C47842 /* images */,
+			);
+			sourceTree = "<group>";
+		};
+		BD73C3D12CC84EE300C47842 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = images;
+			path = ../../../../Desktop/images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		BD73C3CB2CC84E8800C47842 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+			};
+			buildConfigurationList = BD73C3CE2CC84E8800C47842 /* Build configuration list for PBXProject "spatial-design-project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD73C3CA2CC84E8800C47842;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		BD73C3CF2CC84E8800C47842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		BD73C3D02CC84E8800C47842 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD73C3CE2CC84E8800C47842 /* Build configuration list for PBXProject "spatial-design-project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD73C3CF2CC84E8800C47842 /* Debug */,
+				BD73C3D02CC84E8800C47842 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD73C3CB2CC84E8800C47842 /* Project object */;
+}
