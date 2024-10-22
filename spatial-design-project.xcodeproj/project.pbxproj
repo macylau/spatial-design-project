@@ -9,21 +9,33 @@
 /* Begin PBXFileReference section */
 		BD73C3D22CC84EF900C47842 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		BD73C3D32CC84F1800C47842 /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		BD73C3D42CC8512900C47842 /* ari_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ari_logo.png; sourceTree = "<group>"; };
+		BD73C3D52CC8512900C47842 /* BME-Nebo-2024-BW-116.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BME-Nebo-2024-BW-116.jpg.png"; sourceTree = "<group>"; };
+		BD73C3D62CC8512900C47842 /* CosmonautSuit_en.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = CosmonautSuit_en.reality; sourceTree = "<group>"; };
+		BD73C3D72CC8512900C47842 /* Screenshot 2024-10-21 at 4.26.31 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot 2024-10-21 at 4.26.31 PM.png"; sourceTree = "<group>"; };
+		BD73C3D82CC8512900C47842 /* sneaker_airforce.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sneaker_airforce.usdz; sourceTree = "<group>"; };
+		BD73C3D92CC8512900C47842 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		BD73C3CA2CC84E8800C47842 = {
 			isa = PBXGroup;
 			children = (
+				BD73C3DA2CC8512900C47842 /* images */,
 				BD73C3D22CC84EF900C47842 /* index.html */,
 				BD73C3D32CC84F1800C47842 /* styles.css */,
-				BD73C3D12CC84EE300C47842 /* images */,
 			);
 			sourceTree = "<group>";
 		};
-		BD73C3D12CC84EE300C47842 /* images */ = {
+		BD73C3DA2CC8512900C47842 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				BD73C3D42CC8512900C47842 /* ari_logo.png */,
+				BD73C3D52CC8512900C47842 /* BME-Nebo-2024-BW-116.jpg.png */,
+				BD73C3D62CC8512900C47842 /* CosmonautSuit_en.reality */,
+				BD73C3D72CC8512900C47842 /* Screenshot 2024-10-21 at 4.26.31 PM.png */,
+				BD73C3D82CC8512900C47842 /* sneaker_airforce.usdz */,
+				BD73C3D92CC8512900C47842 /* thumbnail.png */,
 			);
 			name = images;
 			path = ../../../../Desktop/images;
