@@ -9,12 +9,12 @@
 /* Begin PBXFileReference section */
 		BD73C3D22CC84EF900C47842 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		BD73C3D32CC84F1800C47842 /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
-		BD73C3DF2CC8600A00C47842 /* ari_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ari_logo.png; sourceTree = "<group>"; };
-		BD73C3E02CC8600A00C47842 /* BME-Nebo-2024-BW-116.jpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BME-Nebo-2024-BW-116.jpg.png"; sourceTree = "<group>"; };
 		BD73C3E12CC8600A00C47842 /* CosmonautSuit_en.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = CosmonautSuit_en.reality; sourceTree = "<group>"; };
 		BD73C3E22CC8600A00C47842 /* sneaker_airforce.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sneaker_airforce.usdz; sourceTree = "<group>"; };
 		BD73C3E32CC8600A00C47842 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
 		BD73C3E42CC8600A00C47842 /* thumnail-CosmonautSuit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumnail-CosmonautSuit.png"; sourceTree = "<group>"; };
+		BD73C3E62CC8623C00C47842 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		BD73C3E72CC8623C00C47842 /* hero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hero.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -30,8 +30,8 @@
 		BD73C3E52CC8600A00C47842 /* assets */ = {
 			isa = PBXGroup;
 			children = (
-				BD73C3DF2CC8600A00C47842 /* ari_logo.png */,
-				BD73C3E02CC8600A00C47842 /* BME-Nebo-2024-BW-116.jpg.png */,
+				BD73C3E72CC8623C00C47842 /* hero.png */,
+				BD73C3E62CC8623C00C47842 /* logo.png */,
 				BD73C3E12CC8600A00C47842 /* CosmonautSuit_en.reality */,
 				BD73C3E22CC8600A00C47842 /* sneaker_airforce.usdz */,
 				BD73C3E32CC8600A00C47842 /* thumbnail.png */,

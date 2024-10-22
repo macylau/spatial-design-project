@@ -93,7 +93,7 @@ body {
   align-items: flex-end;
   justify-content: flex-start;
   height: 100vh;
-  background: url("assets/BME-Nebo-2024-BW-116.jpg.png") no-repeat center
+  background: url("assets/hero") no-repeat center
     center/cover;
   color: white;
 }
