@@ -9,42 +9,37 @@
 /* Begin PBXFileReference section */
 		BD73C3D22CC84EF900C47842 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		BD73C3D32CC84F1800C47842 /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
-		BD73C3E12CC8600A00C47842 /* CosmonautSuit_en.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = CosmonautSuit_en.reality; sourceTree = "<group>"; };
-		BD73C3E22CC8600A00C47842 /* sneaker_airforce.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sneaker_airforce.usdz; sourceTree = "<group>"; };
-		BD73C3E32CC8600A00C47842 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
-		BD73C3E42CC8600A00C47842 /* thumnail-CosmonautSuit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumnail-CosmonautSuit.png"; sourceTree = "<group>"; };
-		BD73C3E62CC8623C00C47842 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		BD73C3E72CC8623C00C47842 /* hero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hero.png; sourceTree = "<group>"; };
-		BD73C3E92CC9CBBD00C47842 /* hero.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = hero.heic; sourceTree = "<group>"; };
-		BD73C3EA2CC9CC7100C47842 /* hero.heic */ = {isa = PBXFileReference; lastKnownFileType = file; name = hero.heic; path = assets/hero.heic; sourceTree = "<group>"; };
-		BD73C3EB2CC9CC7600C47842 /* hero.heic */ = {isa = PBXFileReference; lastKnownFileType = file; name = hero.heic; path = assets/hero.heic; sourceTree = SOURCE_ROOT; };
+		BD73C3ED2CC9CD5C00C47842 /* CosmonautSuit_en.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = CosmonautSuit_en.reality; sourceTree = "<group>"; };
+		BD73C3EE2CC9CD5C00C47842 /* hero.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = hero.heic; sourceTree = "<group>"; };
+		BD73C3EF2CC9CD5C00C47842 /* hero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hero.png; sourceTree = "<group>"; };
+		BD73C3F02CC9CD5C00C47842 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		BD73C3F12CC9CD5C00C47842 /* sneaker_airforce.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sneaker_airforce.usdz; sourceTree = "<group>"; };
+		BD73C3F22CC9CD5C00C47842 /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		BD73C3F32CC9CD5C00C47842 /* thumnail-CosmonautSuit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumnail-CosmonautSuit.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		BD73C3CA2CC84E8800C47842 = {
 			isa = PBXGroup;
 			children = (
-				BD73C3E52CC8600A00C47842 /* assets */,
+				BD73C3F42CC9CD5C00C47842 /* assets */,
 				BD73C3D22CC84EF900C47842 /* index.html */,
 				BD73C3D32CC84F1800C47842 /* styles.css */,
-				BD73C3EA2CC9CC7100C47842 /* hero.heic */,
 			);
 			sourceTree = "<group>";
 		};
-		BD73C3E52CC8600A00C47842 /* assets */ = {
+		BD73C3F42CC9CD5C00C47842 /* assets */ = {
 			isa = PBXGroup;
 			children = (
-				BD73C3E92CC9CBBD00C47842 /* hero.heic */,
-				BD73C3EB2CC9CC7600C47842 /* hero.heic */,
-				BD73C3E72CC8623C00C47842 /* hero.png */,
-				BD73C3E62CC8623C00C47842 /* logo.png */,
-				BD73C3E12CC8600A00C47842 /* CosmonautSuit_en.reality */,
-				BD73C3E22CC8600A00C47842 /* sneaker_airforce.usdz */,
-				BD73C3E32CC8600A00C47842 /* thumbnail.png */,
-				BD73C3E42CC8600A00C47842 /* thumnail-CosmonautSuit.png */,
+				BD73C3ED2CC9CD5C00C47842 /* CosmonautSuit_en.reality */,
+				BD73C3EE2CC9CD5C00C47842 /* hero.heic */,
+				BD73C3EF2CC9CD5C00C47842 /* hero.png */,
+				BD73C3F02CC9CD5C00C47842 /* logo.png */,
+				BD73C3F12CC9CD5C00C47842 /* sneaker_airforce.usdz */,
+				BD73C3F22CC9CD5C00C47842 /* thumbnail.png */,
+				BD73C3F32CC9CD5C00C47842 /* thumnail-CosmonautSuit.png */,
 			);
-			name = assets;
-			path = ../../../../Desktop/assets;
+			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
