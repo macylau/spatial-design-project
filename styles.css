@@ -93,7 +93,7 @@ body {
   align-items: flex-end;
   justify-content: flex-start;
   height: 100vh;
-  background: url("assets/hero.heic") no-repeat center
+  background: url("assets/heroImage.heic") no-repeat center
     center/cover;
   color: white;
 }
