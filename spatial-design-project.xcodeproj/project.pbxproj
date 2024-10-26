@@ -17,6 +17,7 @@
 		BD73C3F52CC9CF5400C47842 /* hero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hero.png; sourceTree = "<group>"; };
 		BD73C3F62CC9CF9800C47842 /* main.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		BD73C3F92CCD693500C47842 /* heroImage.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = heroImage.heic; sourceTree = "<group>"; };
+		BD73C3FA2CCD870500C47842 /* panorama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panorama.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -37,6 +38,7 @@
 				BD73C3F52CC9CF5400C47842 /* hero.png */,
 				BD73C3ED2CC9CD5C00C47842 /* CosmonautSuit_en.reality */,
 				BD73C3F02CC9CD5C00C47842 /* logo.png */,
+				BD73C3FA2CCD870500C47842 /* panorama.jpg */,
 				BD73C3F12CC9CD5C00C47842 /* sneaker_airforce.usdz */,
 				BD73C3F22CC9CD5C00C47842 /* thumbnail.png */,
 				BD73C3F32CC9CD5C00C47842 /* thumnail-CosmonautSuit.png */,

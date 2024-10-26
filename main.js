@@ -5,3 +5,7 @@ fullscreenTarget.addEventListener('click', event=> {
         //handle error fracfully
     }
 });
+
+const viewer = new PhotoSphereViewer.Viewer({
+            container: document.getElementById('viewer'),
+            panorama: 'panorama.jpg', 

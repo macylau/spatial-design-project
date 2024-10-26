@@ -105,11 +105,42 @@ body {
 }
 
 .hero-text h1 {
-  font-size: 48px;
+  font-size: 80px;
   font-weight: 700;
   margin: 0;
 }
 
 .hero-text p {
   margin: 0;
+  font-weight: 600;
+  font-size: 30px
+}
+
+.overview {
+    background-color: #333;
+    padding: 15px;
+}
+
+.overview .buyBike {
+    background-color: #FEC603;
+    padding: 5px;
+    width: 180px;
+    font-weight: 700;
+}
+
+.containter {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.first-guide {
+    background-color: black;
+    width: 600px;
+    padding: 10px;
+}
+
+.bike-grid {
+    background-color: #F1F1F1;
+    margin: 200px;
 }

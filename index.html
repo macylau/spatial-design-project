@@ -9,7 +9,9 @@
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/photo-sphere-viewer/dist/photo-sphere-viewer.css" />
+    <script src="https://unpkg.com/photo-sphere-viewer/dist/photo-sphere-viewer.js"></script>
 </head>
 <body>
     <nav class="navbar">
@@ -42,17 +44,28 @@
         </div>
     </div>
     
-    <div class="container">
-        <a href="assets/CosmonautSuit_en.reality" rel="ar">
-          <img src="assets/thumnail-CosmonautSuit.png" alt="3D Object Preview">
-          View in AR
-        </a>
-    </div>
-
     <div class="overview">
         <h4>Bike Overview</h4>
         <button class="buyBike">Buy</button>
     </div>
+    
+    <div class="container">
+        <a href="assets/CosmonautSuit_en.reality" rel="ar">
+          <img src="assets/thumnail-CosmonautSuit.png" alt="3D Object Preview">
+        </a>
+        <div class="ar-guide">
+            <p class="first-guide">Tap on the Bike to enter Ari Immersive Experience</p>
+            <p class="second-guide">With the Apple Vision Pro, view the bike in 3D and discover all the the La Sal Peak has to offer. Customize your bike, analyze specs, and read reviews all at your fingertips in your 3D space.</p>
+        </div>
+    </div>
+    
+    <div class="bike-grid">
+        <div class="panorama">
+            <div id="viewer" style="width: 100%; height: 100vh;"></div>
+        </div>
+        
+    </div>
+    
     <script src="main.js"></script>
 </body>
 </html>
