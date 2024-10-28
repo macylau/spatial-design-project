@@ -117,8 +117,14 @@ body {
 }
 
 .overview {
+    display: flex;
+    justify-content: space-around;
     background-color: #333;
     padding: 15px;
+}
+
+.overview h4{
+    color: white;
 }
 
 .overview .buyBike {
@@ -126,18 +132,26 @@ body {
     padding: 5px;
     width: 180px;
     font-weight: 700;
+    border: none;
+    border-radius: 5px;
 }
 
 .containter {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 50px;
+}
+
+.ar-guide {
+    
 }
 
 .first-guide {
     background-color: black;
     width: 600px;
     padding: 10px;
+    color: white;
 }
 
 .bike-grid {
