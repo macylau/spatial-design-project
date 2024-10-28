@@ -1,5 +1,5 @@
 * {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -93,8 +93,17 @@ body {
   align-items: flex-end;
   justify-content: flex-start;
   height: 100vh;
-  background: url("assets/heroImage.heic") no-repeat center
-    center/cover;
+  background: url("assets/heroImage.heic") no-repeat center center/cover;
+  color: white;
+}
+
+.hero2 {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 100vh;
+  background: url("assets/hero.png") no-repeat center center/cover;
   color: white;
 }
 
@@ -113,27 +122,27 @@ body {
 .hero-text p {
   margin: 0;
   font-weight: 600;
-  font-size: 30px
+  font-size: 30px;
 }
 
 .overview {
-    display: flex;
-    justify-content: space-around;
-    background-color: #333;
-    padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 15px;
 }
 
-.overview h4{
-    color: white;
+.overview h4 {
+  color: white;
 }
 
 .overview .buyBike {
-    background-color: #FEC603;
-    padding: 5px;
-    width: 180px;
-    font-weight: 700;
-    border: none;
-    border-radius: 5px;
+  background-color: #fec603;
+  padding: 5px;
+  width: 180px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
 }
 
 .container {
@@ -151,15 +160,15 @@ body {
 
 .ar-guide img{
   width: 50px;
-  margin: 10px;
 }
 
 .first-guide {
   background-color: black;
-  width: 500px;
+  width: 400px;
   padding: 10px;
   color: white;
   margin-bottom: 20px;
+  margin: 20px auto;
 }
 
 .bike-grid {
@@ -174,12 +183,15 @@ body {
 
 .video-container {
   display: flex;
-  flex-direction: column;    
+  flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin-bottom: 150px;
+  height: 100vh;
 }
 .video-container h2{
-  margin: 150px 0;
+  margin-bottom: 100px;
 }
 
+.video-container iframe{
+  margin: 0 auto;
+}
