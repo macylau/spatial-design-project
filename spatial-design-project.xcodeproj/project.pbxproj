@@ -18,6 +18,7 @@
 		BD73C3F62CC9CF9800C47842 /* main.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		BD73C3F92CCD693500C47842 /* heroImage.heic */ = {isa = PBXFileReference; lastKnownFileType = file; path = heroImage.heic; sourceTree = "<group>"; };
 		BD73C3FA2CCD870500C47842 /* panorama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panorama.jpg; sourceTree = "<group>"; };
+		BD73C3FB2CCF205300C47842 /* 3D-guide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3D-guide.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -34,6 +35,7 @@
 		BD73C3F42CC9CD5C00C47842 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				BD73C3FB2CCF205300C47842 /* 3D-guide.png */,
 				BD73C3F92CCD693500C47842 /* heroImage.heic */,
 				BD73C3F52CC9CF5400C47842 /* hero.png */,
 				BD73C3ED2CC9CD5C00C47842 /* CosmonautSuit_en.reality */,

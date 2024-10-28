@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
 }
@@ -136,25 +136,50 @@ body {
     border-radius: 5px;
 }
 
-.containter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
 }
 
 .ar-guide {
-    
+  width: 600px;
+}
+
+.ar-guide img{
+  width: 50px;
+  margin: 10px;
 }
 
 .first-guide {
-    background-color: black;
-    width: 600px;
-    padding: 10px;
-    color: white;
+  background-color: black;
+  width: 500px;
+  padding: 10px;
+  color: white;
+  margin-bottom: 20px;
 }
 
 .bike-grid {
-    background-color: #F1F1F1;
-    margin: 200px;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
 }
+
+.video-container {
+  display: flex;
+  flex-direction: column;    
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 150px;
+}
+.video-container h2{
+  margin: 150px 0;
+}
+
