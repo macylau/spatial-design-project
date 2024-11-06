@@ -1,2 +1,1 @@
-#  <#Title#>
-
+AddType model/vnd.reality .reality
