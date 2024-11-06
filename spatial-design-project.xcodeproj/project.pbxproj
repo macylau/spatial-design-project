@@ -30,6 +30,7 @@
 		BD73C4062CD023D300C47842 /* warrantu-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warrantu-1.png"; sourceTree = "<group>"; };
 		BD73C4072CD023D300C47842 /* warrantu-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warrantu-0.png"; sourceTree = "<group>"; };
 		BD73C4082CD023D300C47842 /* warrantu-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warrantu-2.png"; sourceTree = "<group>"; };
+		BD9BA4E42CD93A5500BDAEA5 /* vercel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vercel.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -38,6 +39,7 @@
 			children = (
 				BD73C3F42CC9CD5C00C47842 /* assets */,
 				BD73C3D22CC84EF900C47842 /* index.html */,
+				BD9BA4E42CD93A5500BDAEA5 /* vercel.json */,
 				BD73C3D32CC84F1800C47842 /* styles.css */,
 				BD73C3F62CC9CF9800C47842 /* main.js */,
 			);
