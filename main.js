@@ -11,6 +11,14 @@ function toggleSearch() {
   }
 }
 
+var myLink = document.querySelector("#ar-link");
+if(myLink.relList.supports("ar")) {
+    myLink.style.display = "block";
+    else {
+        myLink.style.display = "none";
+    }
+}
+
 // Function to perform a basic search (you can customize this logic)
 function performSearch(query) {
   if (query.trim() !== "") {
