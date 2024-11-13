@@ -145,7 +145,8 @@ body {
 }
 
 #bike-thumbnail {
-    width: 50%;
+    width: 70%;
+    margin: 100px auto;
 }
 
 .ar-guide {
@@ -176,7 +177,7 @@ body {
 #fullscreenTarget {
     width: 70%;
     border-radius: 10px;
-    margin: 50px auto;
+    margin: 100px auto;
 }
 
 .video-container {
