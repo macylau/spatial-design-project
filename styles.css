@@ -175,7 +175,9 @@ body {
 }
 
 #fullscreenTarget {
-    width: 70%;
+    width: 50%;
+    border-radius: 10px;
+    margin: 50px auto;
 }
 
 .video-container {
