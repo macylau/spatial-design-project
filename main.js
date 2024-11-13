@@ -27,7 +27,7 @@ if(myLink.relList.supports("ar")) {
 
 fullscreenTarget.addEventListener('click', event => {
     try {
-        fullscreenTarget.requestFullScreen();
+        fullscreenTarget.requestFullscreen();
     } catch(error) {
         //handle error gracefully
     }
