@@ -144,6 +144,9 @@ body {
   text-align: center;
 }
 
+#bike-thumbnail {
+    padding: 30px
+}
 .ar-guide {
   width: 600px;
 }
