@@ -11,6 +11,12 @@ function toggleSearch() {
   }
 }
 
+function performSearch(query) {
+  if (query.trim() !== "") {
+    window.location.href = `/search?query=${encodeURIComponent(query)}`;
+  }
+}
+
 var myLink = document.querySelector("#ar-link");
 if(myLink.relList.supports("ar")) {
     myLink.style.display = "block";
@@ -21,18 +27,10 @@ if(myLink.relList.supports("ar")) {
 
 fullscreenTarget.addEventListener('click', event => {
     try {
-        fullscreenTarget.requestFullscreen();
+        fullscreenTarget.requestFullScreen();
     } catch(error) {
         //handle error gracefully
     }
 });
-
-// Function to perform a basic search (you can customize this logic)
-function performSearch(query) {
-  if (query.trim() !== "") {
-    // Redirect to a search results page (implement this on your server)
-    window.location.href = `/search?query=${encodeURIComponent(query)}`;
-  }
-}
 
 
