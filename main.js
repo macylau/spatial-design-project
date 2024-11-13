@@ -19,6 +19,14 @@ if(myLink.relList.supports("ar")) {
     }
 }
 
+fullscreenTarget.addEventListener('click', event => {
+    try {
+        fullscreenTarget.requestFullscreen();
+    } catch(error) {
+        
+    }
+});
+
 // Function to perform a basic search (you can customize this logic)
 function performSearch(query) {
   if (query.trim() !== "") {
@@ -27,8 +35,4 @@ function performSearch(query) {
   }
 }
 
-// panorama
-const viewer = new PhotoSphereViewer.Viewer({
-    container: document.getElementById('viewer'),
-    panorama: 'panorama.jpg',
-});
+

@@ -33,6 +33,7 @@
 		BD9BA4E42CD93A5500BDAEA5 /* vercel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vercel.json; sourceTree = "<group>"; };
 		BD9BA4E72CDAF8E000BDAEA5 /* htaccess.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = htaccess.md; sourceTree = "<group>"; };
 		BD9BA4EA2CDD740900BDAEA5 /* zebra.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = zebra.usdz; sourceTree = "<group>"; };
+		BD9BA4EE2CE419E200BDAEA5 /* bike.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = bike.reality; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -51,6 +52,7 @@
 		BD73C3F42CC9CD5C00C47842 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				BD9BA4EE2CE419E200BDAEA5 /* bike.reality */,
 				BD9BA4EA2CDD740900BDAEA5 /* zebra.usdz */,
 				BD73C4072CD023D300C47842 /* warrantu-0.png */,
 				BD73C4062CD023D300C47842 /* warrantu-1.png */,
