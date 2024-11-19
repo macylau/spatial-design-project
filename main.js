@@ -29,8 +29,7 @@ fullscreenTarget.addEventListener('click', event => {
     try {
         fullscreenTarget.requestFullscreen();
     } catch(error) {
-        //handle error gracefully
+        console.error(`Error attempting fullscreen`)
     }
 });
-
 
