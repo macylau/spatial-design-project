@@ -11,22 +11,15 @@ function toggleSearch() {
   }
 }
 
+// Function to perform a basic search (you can customize this logic)
 function performSearch(query) {
   if (query.trim() !== "") {
+    // Redirect to a search results page (implement this on your server)
     window.location.href = `/search?query=${encodeURIComponent(query)}`;
   }
 }
 
-// For opening .reality file
-var myLink = document.querySelector("#ar-link");
-if(myLink.relList.supports("ar")) {
-    myLink.style.display = "block";
-    else {
-        myLink.style.display = "none";
-    }
-}
-
-//panorama
+// panorama
 fullscreenTarget.addEventListener('click', event => {
   console.log('Image clicked!');
   try {
@@ -36,4 +29,12 @@ fullscreenTarget.addEventListener('click', event => {
   }
 });
 
+// For opening .reality file
+//var myLink = document.querySelector("#ar-link");
+//if(myLink.relList.supports("ar")) {
+//    myLink.style.display = "block";
+//    else {
+//        myLink.style.display = "none";
+//    }
+//}
 
