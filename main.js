@@ -19,24 +19,21 @@ function performSearch(query) {
   }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  // Panorama fullscreen functionality
-  const fullscreenTarget = document.getElementById('fullscreenTarget');
-  fullscreenTarget.addEventListener('click', event => {
-    console.log('Image clicked!');
-    try {
-      fullscreenTarget.requestFullscreen();
-    } catch (error) {
-      console.error('Fullscreen request failed:', error);
-    }
-  });
+// For opening .reality file
+var myLink = document.querySelector("#ar-link");
+ if(myLink.relList.supports("ar")) {
+     myLink.computedStyleMap.display = "block";
+ } else {
+     myLink.style.display = "none";
+ }
 
-  // AR file opening functionality
-  const myLink = document.querySelector("#ar-link");
-  if (myLink && myLink.relList.supports("ar")) {
-    myLink.style.display = "block";
-  } else if (myLink) {
-    myLink.style.display = "none";
+// panorama
+fullscreenTarget.addEventListener('click', event => {
+  console.log('Image clicked!');
+  try {
+    fullscreenTarget.requestFullscreen();
+  } catch (error) {
+    console.error('Fullscreen request failed:', error);
   }
 });
 
