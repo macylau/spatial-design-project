@@ -1,3 +1,11 @@
+// For opening .reality file
+var myLink = document.querySelector("#ar-link");
+ if (myLink.relList.supports("ar")) {
+     myLink.style.display = "block";
+ } else {
+     myLink.style.display = "none";
+ }
+
 // Function to toggle search input visibility
 function toggleSearch() {
   var searchInput = document.getElementById("searchInput");
@@ -18,14 +26,6 @@ function performSearch(query) {
     window.location.href = `/search?query=${encodeURIComponent(query)}`;
   }
 }
-
-// For opening .reality file
-var myLink = document.querySelector("#ar-link");
- if(myLink.relList.supports("ar")) {
-     myLink.computedStyleMap.display = "block";
- } else {
-     myLink.style.display = "none";
- }
 
 // panorama
 fullscreenTarget.addEventListener('click', event => {
