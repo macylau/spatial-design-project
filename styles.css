@@ -176,11 +176,11 @@ body {
   text-align: center;
 }
 
-/*#fullscreenTarget {*/
-/*    width: 70%;*/
-/*    border-radius: 10px;*/
-/*    margin: 100px auto;*/
-/*}*/
+#fullscreenTarget {
+    pointer-events: auto;
+    border-radius: 10px;
+    margin: 100px auto;
+}
 
 .video-container {
   display: flex;

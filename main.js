@@ -28,10 +28,12 @@ if(myLink.relList.supports("ar")) {
 
 //panorama
 fullscreenTarget.addEventListener('click', event => {
+  console.log('Image clicked!');
   try {
     fullscreenTarget.requestFullscreen();
   } catch (error) {
-    //handle error gracefully
+    console.error('Fullscreen request failed:', error);
   }
-})
+});
+
 
