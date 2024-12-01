@@ -17,6 +17,7 @@ function performSearch(query) {
   }
 }
 
+// For opening .reality file
 var myLink = document.querySelector("#ar-link");
 if(myLink.relList.supports("ar")) {
     myLink.style.display = "block";
@@ -25,6 +26,7 @@ if(myLink.relList.supports("ar")) {
     }
 }
 
+//panorama
 fullscreenTarget.addEventListener('click', event => {
   try {
     fullscreenTarget.requestFullscreen();
