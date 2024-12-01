@@ -31,10 +31,9 @@ fullscreenTarget.addEventListener('click', event => {
 
 // For opening .reality file
 var myLink = document.querySelector("#ar-link");
-if(myLink.relList.supports("ar")) {
+if (myLink.relList.supports("ar")) {
     myLink.style.display = "block";
-    else {
-        myLink.style.display = "none";
-    }
+} else {
+    myLink.style.display = "none";
 }
 
