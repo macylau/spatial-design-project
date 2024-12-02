@@ -20,21 +20,21 @@ function performSearch(query) {
 };
 
 // For opening .reality file
-var myLink = document.querySelector("#ar-link");
- if (myLink.relList.supports("ar")) {
-     myLink.style.display = "block";
+ var myLink = document.querySelector("#ar-link");
+ if(myLink.relList.supports("ar")) {
+     myLink.computedStyleMap.display = "block";
  } else {
      myLink.style.display = "none";
- };
+ }
 
 // panorama
-fullscreenTarget.addEventListener('click', event => {
-  console.log('Image clicked!');
-  try {
-    fullscreenTarget.requestFullscreen();
-  } catch (error) {
-    console.error('Fullscreen request failed:', error);
-  }
-});
+//fullscreenTarget.addEventListener('click', event => {
+//  console.log('Image clicked!');
+//  try {
+//    fullscreenTarget.requestFullscreen();
+//  } catch (error) {
+//    console.error('Fullscreen request failed:', error);
+//  }
+//});
 
 
