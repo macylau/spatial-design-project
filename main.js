@@ -9,7 +9,7 @@ function toggleSearch() {
     searchInput.classList.add("show");
     searchInput.focus();
   }
-}
+};
 
 // Function to perform a basic search (you can customize this logic)
 function performSearch(query) {
@@ -17,15 +17,15 @@ function performSearch(query) {
     // Redirect to a search results page (implement this on your server)
     window.location.href = `/search?query=${encodeURIComponent(query)}`;
   }
-}
+};
 
 // For opening .reality file
-if (myLink.relList.supports("ar")) {
-    myLink.style.display = "block";
-    document.getElementById("bike-thumbnail").style.display = "inline"; // Ensure visibility
-} else {
-    myLink.style.display = "none";
-}
+var myLink = document.querySelector("#ar-link");
+ if (myLink.relList.supports("ar")) {
+     myLink.style.display = "block";
+ } else {
+     myLink.style.display = "none";
+ };
 
 // panorama
 fullscreenTarget.addEventListener('click', event => {
