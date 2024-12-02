@@ -19,28 +19,22 @@ function performSearch(query) {
   }
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    // AR link handling
-    const myLink = document.querySelector("#ar-link");
-    const bikeThumbnail = document.getElementById("bike-thumbnail");
-    if (myLink.relList.supports("ar")) {
-        myLink.style.display = "block";
-    } else {
-        // Hide AR link but keep the thumbnail visible
-        myLink.style.display = "inline";
-        bikeThumbnail.style.display = "inline";
-    }
+// For opening .reality file
+if (myLink.relList.supports("ar")) {
+    myLink.style.display = "block";
+    document.getElementById("bike-thumbnail").style.display = "inline"; // Ensure visibility
+} else {
+    myLink.style.display = "none";
+}
 
-    // Panorama fullscreen functionality
-    const fullscreenTarget = document.getElementById("fullscreenTarget");
-    fullscreenTarget.addEventListener('click', event => {
-        console.log('Image clicked!');
-        try {
-            fullscreenTarget.requestFullscreen();
-        } catch (error) {
-            console.error('Fullscreen request failed:', error);
-        }
-    });
+// panorama
+fullscreenTarget.addEventListener('click', event => {
+  console.log('Image clicked!');
+  try {
+    fullscreenTarget.requestFullscreen();
+  } catch (error) {
+    console.error('Fullscreen request failed:', error);
+  }
 });
 
 
