@@ -17,20 +17,19 @@ function performSearch(query) {
   }
 }
 
- var myLink = document.querySelector("#ar-link");
- if(myLink.relList.supports("ar")) {
-     myLink.style.display = "block";
-    } else {
-     myLink.style.display = "none";
- }
+var myLink = document.querySelector("#ar-link");
+if(myLink.relList.supports("ar")) {
+    myLink.style.display = "block";
+    else {
+        myLink.style.display = "none";
+    }
+}
 
-//// panorama
-//fullscreenTarget.addEventListener('click', event => {
-//  console.log('Image clicked!');
-//  try {
-//    fullscreenTarget.requestFullscreen();
-//  } catch (error) {
-//    console.error('Fullscreen request failed:', error);
-//  }
-//});
+fullscreenTarget.addEventListener('click', event => {
+    try {
+        fullscreenTarget.requestFullscreen();
+    } catch(error) {
+        console.error(`Error attempting fullscreen`)
+    }
+});
 
