@@ -32,4 +32,3 @@ fullscreenTarget.addEventListener('click', event => {
         console.error(`Error attempting fullscreen`)
     }
 });
-
