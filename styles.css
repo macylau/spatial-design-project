@@ -174,12 +174,6 @@ body {
   text-align: center;
 }
 
-#fullscreenTarget {
-    width: 70%;
-    border-radius: 10px;
-    margin: 100px auto;
-}
-
 .video-container {
   display: flex;
   flex-direction: column;

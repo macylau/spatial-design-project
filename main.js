@@ -20,15 +20,16 @@ function performSearch(query) {
 var myLink = document.querySelector("#ar-link");
 if(myLink.relList.supports("ar")) {
     myLink.style.display = "block";
-    else {
-        myLink.style.display = "none";
-    }
+    } else {
+        myLink.style.display = "block";
 }
 
+// panorama
 fullscreenTarget.addEventListener('click', event => {
-    try {
-        fullscreenTarget.requestFullscreen();
-    } catch(error) {
-        console.error(`Error attempting fullscreen`)
-    }
+  console.log('Image clicked!');
+  try {
+    fullscreenTarget.requestFullscreen();
+  } catch (error) {
+    console.error('Fullscreen request failed:', error);
+  }
 });
